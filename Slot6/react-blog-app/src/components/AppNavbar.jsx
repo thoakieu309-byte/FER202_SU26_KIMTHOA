@@ -15,9 +15,10 @@ function AppNavbar() {
         <Navbar.Collapse id="main-nav">
           <Nav className='ms-auto'>
             {/* as={NavLink} → tự thêm class 'active' khi URL khớp */}
-            <Nav.Link as={NavLink} to='/'      end>🏠 Trang chủ</Nav.Link>
+            <Nav.Link as={NavLink} to='/home'      end>🏠 Trang chủ</Nav.Link>
             <Nav.Link as={NavLink} to='/posts'    >📚 Bài viết</Nav.Link>
             <Nav.Link as={NavLink} to='/about'    >ℹ️ Giới thiệu</Nav.Link>
+            <Nav.Link as={NavLink} to='/register' >📝 Đăng ký</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
